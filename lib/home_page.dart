@@ -29,6 +29,7 @@ class HomePage extends StatelessWidget {
             RaisedButton(
               child: Text('Login Page'),
               onPressed: () {
+                Navigator.pop(context, '/login');
                 // Navigate to the second screen using a named route.
               },
             )
